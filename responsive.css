@@ -1,0 +1,209 @@
+@media screen and (max-width:750px){
+		/*========================Navigasi================================*/
+
+	header{
+		width: 100%;
+		background-size: cover;
+	}
+	nav .wrapper-nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.wrapper-nav p{
+		padding: 10px 15px;
+		font-size: 60px;
+		float: left;
+		color: #000000;
+	}
+	nav ul li {
+		width: 100%;
+		padding: 0px 0px;
+	}
+	
+	nav ul {
+		float: none;
+		max-height: 0em;
+		transition: all 0s;
+	}
+	nav ul li {
+		text-align: left;
+		padding-left: 21px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: 90%;
+	}
+	nav ul li a{
+		color: #ffffff;
+	}
+
+	.handle {
+		display: block;
+		background: #FAFAFA;
+		transition: all .8s ease;
+	}
+	.showing {
+		max-height: 70em;
+		background: rgba(50, 50, 50, 0.5);
+		width: 100%;
+		position: relative;
+		transition: all .8s ease;
+	}
+
+	.fa-1x{
+		font-size: 200px;
+		padding-top: 25px;
+		color: #000000;
+	}
+
+	.fa{
+		font-size: 25px !important;
+	}
+
+	nav ul li:after{
+		content: "";
+		display: none;
+	}	
+	/*========================Navigasi================================*/
+
+	/*========================Content-Header================================*/
+	.content-header{
+		width: 100%;
+	}
+
+	.content-header h1{
+		font-family: 'Wolf-in-the-city';
+		text-align: center;
+		font-size: 130px;
+		margin-top: 70px;
+		color: #FAFAFA;
+		letter-spacing: 2px;
+	}
+	/*========================Content-Header================================*/
+
+	/*========================welcome================================*/
+	.welcome{
+		text-align: center;
+		width: 100%;
+		margin-top: -50px;
+	}
+
+	.title-welcome{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.title-welcome h2{
+		font-family: 'Proxima-regular';
+		font-size: 20px;
+	}
+
+	.title-welcome h1{
+		font-family: 'Wolf-in-the-city';
+		font-size: 60px;
+		letter-spacing: 3px;
+		margin-top: -10px;
+	}
+
+	.content-welcome{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.content-welcome p{
+		font-family: 'Proxima-regular';
+		font-size: 13px;
+	}
+
+	/*========================welcome================================*/
+
+	/*========================services================================*/
+
+	.col-4{
+		width: 100%;
+	}
+
+	.description{
+		font-size: 13px;
+	}
+
+	.col-2{
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	.col-2:nth-child(2n-1){
+		display: none;
+	}
+
+	.col-2 p{
+		left: 90px;
+	}
+/*========================services================================*/
+
+	.button{
+		display: block;
+	}
+
+/*========================Quotes================================*/
+	.quotes h1{
+		padding-top: 180px;
+		font-family: 'QuinchoScript';
+		font-size: 25px;
+	}
+
+	.quotes h3{
+		font-family: 'Proxima-regular';
+		font-size: 18px;
+	}
+/*========================quotes================================*/
+
+/*========================Description================================*/
+	.Destination{
+		width: 100%;
+		float: none;
+	}
+
+	.col-6{
+		width: 100%;
+	}
+/*========================Description================================*/
+
+
+	.testimoni{
+		width: 100%;
+		float: none;
+		margin-top: 25px;
+	}	
+
+/*========================Testimoni================================*/
+
+/*========================footer================================*/
+	.row5{
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 100px;
+	}
+
+	.social-col{
+		border: solid 2px #ffffff;
+		border-radius: 100%;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		font-size: 20px;
+		float: left;
+		margin: 10px;
+		background-color: #ffffff;
+	}
+
+	.social-col i{
+		padding-top: 7px;
+		text-align: center;
+	}
+
+
+	.fa-copyright {
+		font-size: 12px !important;
+	}
+/*========================footer================================*/
+}

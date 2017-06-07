@@ -1,0 +1,597 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #FAFAFA;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16%;}(saya ganti)
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@font-face{
+		src: url('Font/Roboto-Regular.ttf');
+		font-family: 'Roboto-Regular';
+}
+
+@font-face{
+		src: url('Font/proximanova-regular-webfont.ttf');
+		font-family: 'Proxima-regular';
+	}
+
+@font-face{
+		src: url('Font/QuinchoScript_PersonalUse.ttf');
+		font-family: 'QuinchoScript';
+	}
+@font-face{
+		src: url('Font/Wolf in the City.ttf');
+		font-family: 'Wolf-in-the-city';
+	}
+
+
+.clear{
+	clear: both;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+/*-------------------------------
+			Navigasi
+---------------------------------*/
+	header{
+		width: 100%;
+		height: 630px;
+		background-size: cover;
+		background: url(Image/Background.png);
+	}
+	nav {
+		width: 100%;
+		background: transparent;
+		z-index: 999;
+		height: 80px;
+	}
+
+	.wrapper-nav p{
+		float: left;
+		font-size: 70px;
+		font-weight: 500;
+		padding-top: 15px;
+		color: #fff;
+		font-family: 'Wolf-in-the-city';
+	}
+	nav .wrapper-nav {
+		width: 90%;
+		margin: 0 auto;
+		font-family: 'Proxima-regular';
+	}
+
+	nav ul {
+		margin: 0;
+		overflow: hidden;
+		list-style-type: none;
+		padding: 0;
+		float: right;
+		height: auto;
+	}
+	nav ul li {
+		font-size: 15px;
+		float: left;
+		width: 105px;
+		font-weight: 700;
+		text-align: center;
+		padding: 28px 0px 0px;
+		margin-top: 3px;
+	}
+	nav ul li a {
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	.handle {
+		width: 100%;
+		cursor: pointer;
+		display: none;
+		text-align: right;
+		font-size:18px;
+		color: #fff;
+	}
+	.wrapper-handle {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	nav ul li:after{
+		content: "";
+	    display: block;
+	    width: 1px;
+	    margin: 15px auto 15px;
+	    height: 1px;
+	    background: transparent;
+	    transition: all .6s ease;
+	}	
+
+	nav ul li:hover:after{
+		width: 80%;
+		height: 2px;
+		background: #ffffff;
+	}
+/*-------------------------------
+			Navigasi
+---------------------------------*/
+
+/*-------------------------------
+			Content-Header
+---------------------------------*/
+
+	.content-header{
+		width: 100%;
+	}
+
+	.content-header h1{
+		font-family: 'Wolf-in-the-city';
+		text-align: center;
+		font-size: 180px;
+		margin-top: 80px;
+		color: #FAFAFA;
+		letter-spacing: 15px;
+	}
+
+/*-------------------------------
+			Content-Header
+---------------------------------*/
+
+/*-------------------------------
+			Welcome
+---------------------------------*/
+
+	.welcome{
+		text-align: center;
+		width: 100%;
+		margin-top: -60px;
+	}
+
+	.title-welcome{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.title-welcome h2{
+		font-family: 'Proxima-regular';
+		font-size: 25px;
+	}
+
+	.title-welcome h1{
+		font-family: 'Wolf-in-the-city';
+		font-size: 65px;
+		letter-spacing: 3px;
+		margin-top: -10px;
+	}
+
+	.content-welcome{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.content-welcome p{
+		font-family: 'Proxima-regular';
+		font-size: 15px;
+	}
+
+/*-------------------------------
+			Welcome
+---------------------------------*/
+
+/*-------------------------------
+			Services
+---------------------------------*/
+
+	.services{
+		text-align: center;
+		font-family: 'Proxima-regular';
+	}
+
+	.row{
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	.col-4{
+		float: left;
+		padding: 10px;
+	}
+
+	.title-col{
+		padding: 10px 0px;
+	}
+
+	.title-col a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.title-col a:hover{
+		color: #2EE600;
+		transition: all .3s ease;
+	}
+
+	.description{
+		font-size: 15px;
+	}
+/*-------------------------------
+			Services
+---------------------------------*/
+
+/*-------------------------------
+			Adventure
+---------------------------------*/
+
+	.adventures{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.title-adventures{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.title-adventures h2{
+		font-family: 'Proxima-regular';
+		font-size: 25px;
+	}
+
+	.title-adventures h1{
+		font-family: 'Wolf-in-the-city';
+		font-size: 65px;
+		letter-spacing: 3px;
+		margin-top: -10px;
+		letter-spacing: 5px;
+	}
+
+
+	.row2{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.col-2{
+		position: relative;
+		float: left;
+		padding: 8px;
+	}
+
+	.col-2 img{
+		background-size: cover;
+		width: 100%;
+		height: 240px;
+		position: relative;
+	}
+
+	.col-2 p{
+		position: absolute;
+		top: 100px;
+		left: 40px;
+		font-family: 'Wolf-in-the-city';
+		font-size: 60px;
+		color: #ffffff;
+	}
+
+	.col-2 a{
+		text-align: center;
+		padding-top: 170px;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		visibility: hidden;
+		transition:.2s ease;
+		text-decoration: none;
+		font-family: 'Proxima-regular';
+		color: #ffffff;
+	}
+
+	.col-2:hover a{
+		visibility: visible;
+		text-align: center;
+		padding-top: 160px;
+		font-size: 23px;
+		color: #ffffff;
+	}
+
+	.button{
+		text-align: center;
+		display: none;
+	}
+
+	.button button{
+		padding: 4px 25px;
+		border: solid 1px #34CCFF;
+		background-color: #034053;
+		color: #ffffff;
+		font-family: 'Proxima-regular';
+		font-size: 17px;
+		border-radius: 3px;
+	}
+/*-------------------------------
+			adventure
+---------------------------------*/
+
+/*-------------------------------
+			Quotes
+---------------------------------*/
+
+	.quotes{
+		width: 100%;
+		height: 430px;
+		text-align: center;
+		background: url(Image/Background2.png);
+		margin-top: 20px;
+		color: #ffffff;
+	}
+
+	.quotes h1{
+		padding-top: 180px;
+		font-family: 'QuinchoScript';
+		font-size: 50px;
+	}
+
+	.quotes h3{
+		font-family: 'Proxima-regular';
+	}
+
+/*-------------------------------
+			Quotes
+---------------------------------*/
+
+/*-------------------------------
+			Destination
+---------------------------------*/
+
+	.row3{
+		margin-top: 20px;
+	}
+
+	.Destination{
+		width: 50%;
+		float: left;
+	}
+
+	.title-destination{
+		font-family: 'Proxima-regular';
+		text-align: center;
+	}
+
+	.col-6{
+		position: relative;
+		float: left;
+		padding: 5px;
+	}
+
+	.col-6 img{
+		width: 100%;
+		height: 160px;
+		position: relative;
+	}
+
+	.col-6 p{
+		position: absolute;
+		top: 50px;
+		left: 80px;
+		font-family: 'Wolf-in-the-city';
+		font-size: 60px;
+		color: #ffffff;
+	}
+
+	.col-6 a{
+		text-align: center;
+		padding-top: 105px;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		visibility: hidden;
+		transition:.2s ease;
+		text-decoration: none;
+		font-family: 'Proxima-regular';
+		color: #ffffff;
+	}
+
+	.col-6:hover a{
+		visibility: visible;
+		text-align: center;
+		padding-top: 105px;
+		font-size: 23px;
+		color: #ffffff;
+	}
+
+/*-------------------------------
+			Destination
+---------------------------------*/
+
+/*-------------------------------
+			Testimoni
+---------------------------------*/
+	.row4{
+		margin-top: 20px;
+	}
+
+	.testimoni{
+		text-align: center;
+		font-family: 'Proxima-regular';
+		width: 50%;
+		float: left;
+		padding: 0px 10px;
+	}
+
+	.col-12{
+		margin-top: 4px;
+	}
+
+	.col-12 img{
+		width: 73px;
+		height: 73px;
+	}
+
+	.col-12, .comment p{
+		padding: 10px 0px;
+		font-size: 15px;
+		font-style: normal;
+	}
+
+	.col-12, .comment span{
+		font-size: 17px;
+		font-style: italic;
+	}
+/*-------------------------------
+			Testimoni
+---------------------------------*/
+
+/*-------------------------------
+			Footer
+---------------------------------*/
+
+	.footer{
+		width: 100%;
+		background: url(Image/Background3.png);
+		height: 300px;
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.row5{
+		width: 22%;
+		margin: 0 auto;
+		padding-top: 100px;
+	}
+
+	.social-col{
+		border: solid 2px #ffffff;
+		border-radius: 100%;
+		width: 45px;
+		height: 45px;
+		text-align: center;
+		font-size: 25px;
+		float: left;
+		margin: 10px;
+		background-color: #ffffff;
+	}
+
+	.social-col i{
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	.fa-facebook:hover{
+		color: #4867AA;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+
+	.fa-twitter:hover{
+		color: #1DA1F2;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+
+	.fa-instagram:hover{
+		color: #D12E90;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+
+	.fa-pinterest-p:hover{
+		color: #BD081C;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+
+	.nav-footer{
+		margin-top: 18px;
+	}
+
+	.nav-footer a{
+		text-decoration: none;
+		color: #ffffff;
+		padding: 5px 10px;
+		border-right: solid 2px #ffffff;
+		font-family: 'Proxima-regular';
+	}
+
+	.nav-footer a:last-child{
+		border-right: none;
+	}
+
+	.nav-logo{
+		font-size: 70px;
+		font-family: 'Wolf-in-the-city';
+		color: #ffffff;
+	}
+
+/*-------------------------------
+			Footer
+---------------------------------*/
+
+/*-------------------------------
+			Copyright
+---------------------------------*/
+
+	.copyright{
+		background-color: #212A37;
+		width: 100%;
+		padding-top: 4px;
+		height: 20px;
+		font-family: 'Proxima-regular';
+		color: #ffffff;
+		font-size: 14px;
+	}
+
+	.L-copy{
+		float: left;
+		width: 50%;
+	}
+
+	.L-copy a{
+		text-decoration: none;
+		color: #67E0FF;
+	}
+
+	.R-copy {
+		float: left;
+		width: 50%;
+		text-align: right;
+	}
+
+	.R-copy a{
+		text-decoration: none;
+		color: #67E0FF;
+	}
+
+/*-------------------------------
+			copyright
+---------------------------------*/
+
+
+
+	
+
+
+
+	
